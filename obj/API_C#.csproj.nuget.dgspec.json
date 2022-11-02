@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Desktop\\API_C#\\API_C#.csproj": {}
+    "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Desktop\\API_C#\\API_C#.csproj": {
+    "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\API_C#\\API_C#.csproj",
+        "projectUniqueName": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
         "projectName": "API_C#",
-        "projectPath": "C:\\Users\\Remakker\\Desktop\\API_C#\\API_C#.csproj",
+        "projectPath": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
         "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Desktop\\API_C#\\obj\\",
+        "outputPath": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Remakker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

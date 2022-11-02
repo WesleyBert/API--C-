@@ -25,3 +25,30 @@ C:\Users\Remakker\Desktop\API_C#\obj\Debug\net6.0\refint\API_C#.dll
 C:\Users\Remakker\Desktop\API_C#\obj\Debug\net6.0\API_C#.pdb
 C:\Users\Remakker\Desktop\API_C#\obj\Debug\net6.0\API_C#.genruntimeconfig.cache
 C:\Users\Remakker\Desktop\API_C#\obj\Debug\net6.0\ref\API_C#.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\appsettings.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\API_C#.exe
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\API_C#.deps.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\API_C#.runtimeconfig.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\API_C#.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\API_C#.pdb
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.csproj.AssemblyReference.cache
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.AssemblyInfoInputs.cache
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.AssemblyInfo.cs
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.csproj.CoreCompileInputs.cache
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\scopedcss\bundle\API_C#.styles.css
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.csproj.CopyComplete
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\refint\API_C#.dll
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.pdb
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\API_C#.genruntimeconfig.cache
+C:\Users\Remakker\Desktop\Ultima entrega\API_C#\obj\Debug\net6.0\ref\API_C#.dll
