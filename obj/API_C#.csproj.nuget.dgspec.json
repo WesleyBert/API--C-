@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {}
+    "C:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {
+    "C:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
+        "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
         "projectName": "API_C#",
-        "projectPath": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
+        "projectPath": "C:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\API_C#.csproj",
         "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\obj\\",
+        "outputPath": "C:\\Users\\Remakker\\Desktop\\Ultima entrega\\API_C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Remakker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,26 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
