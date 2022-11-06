@@ -26,9 +26,17 @@ namespace usuario.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(Usuarios());
+            var usuarios = await _repository.GetUsuarios();
+            return usuarios.Any() ? Ok(usuarios) : NoContent();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var usuario = await _repository.GetUsuarioById(id);
+            return usuario != null ? Ok(usuario) : NotFound("Usuario não encontrado");
         }
 
 
@@ -40,5 +48,32 @@ namespace usuario.Controllers
             BadRequest("Algo deu errado");
 
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, Usuario usuario)
+        {
+            var usuarioExiste = await _repository.GetUsuarioById(id);
+            if (usuarioExiste == null) return NotFound("Usuário não encontrado");
+
+            usuarioExiste.Nome = usuario.Nome ?? usuarioExiste.Nome;
+            usuarioExiste.DataNascimento = usuario.DataNascimento != new DateTime()
+            ? usuario.DataNascimento : usuarioExiste.DataNascimento;
+
+            _repository.UpdateUsuario(usuarioExiste);
+
+            return await _repository.SaveChangesAsync() ? Ok("Usuario atualizado") : BadRequest("Algo deu errado.   ");
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var usuarioExiste = await _repository.GetUsuarioById(id);
+            if (usuarioExiste == null)
+                return NotFound("Usuário não encontrado");
+
+            _repository.DeleteUsuario(usuarioExiste);
+
+            return await _repository.SaveChangesAsync()
+            ? Ok("Usuário deletado.") : BadRequest("Algo deu errado.");
+        }
     }
+
 }

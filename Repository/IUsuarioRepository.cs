@@ -13,5 +13,6 @@ namespace API_C_.Repository
         void DeleteUsuario(Usuario usuario);
 
         Task<bool> SaveChangesAsync();
+        void UpdateUsuario(IEnumerable<Usuario> usuarioExiste);
     }
 }

@@ -9,7 +9,8 @@ namespace API_C_.Repository
     {
         private readonly UsuarioContext _context;
 
-        public UsuarioRepository(UsuarioContext context){
+        public UsuarioRepository(UsuarioContext context)
+        {
             _context = context;
         }
         public void addUsuario(Usuario usuario)
@@ -19,15 +20,16 @@ namespace API_C_.Repository
 
         public void DeleteUsuario(Usuario usuario)
         {
-            throw new NotImplementedException();
+            _context.Remove(usuario);
         }
 
-        public Task<IEnumerable<Usuario>> GetUsuarioById(int id)
+        public async Task<Usuario> GetUsuarioById(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Usuarios.Where(x => x.Id
+            == id).FirstOrDefaultAsync();
         }
 
-        public async Task <IEnumerable<Usuario>> GetUsuarios()
+        public async Task<IEnumerable<Usuario>> GetUsuarios()
         {
             return await _context.Usuarios.ToListAsync();
         }
@@ -38,6 +40,16 @@ namespace API_C_.Repository
         }
 
         public void UpdateUsuario(Usuario usuario)
+        {
+            _context.Update(usuario);
+        }
+
+        Task<IEnumerable<Usuario>> IUsuarioRepository.GetUsuarioById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<Usuario>> IUsuarioRepository.GetUsuarios()
         {
             throw new NotImplementedException();
         }
